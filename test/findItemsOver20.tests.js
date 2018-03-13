@@ -1,5 +1,3 @@
-///var assert = require('assert');
-
 describe('the findItemsOver20 function' , function(){
     it('should return all the products that have a quantity higher than 20.' , function(){
         assert.equal([{"name":"pears","qty":37},{"name":"bananas","qty":27}],

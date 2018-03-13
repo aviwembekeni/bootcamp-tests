@@ -1,5 +1,3 @@
-//var assert = require('assert');
-
 describe('the fromWhere function' , function(){
     it('should return the town the car is from.' , function(){
         assert.equal('Bellville', fromWhere('CY'));

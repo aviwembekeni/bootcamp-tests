@@ -1,5 +1,3 @@
-//var assert = require('assert');
-//var countAllFromTown = require("../countAllFromTown.js");
 describe('the countAllFromTown function' , function(){
     it('should return number registration numbers in the string that is for that town.' , function(){
         assert.deepEqual(3, countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CL'));

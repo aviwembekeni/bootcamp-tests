@@ -1,5 +1,3 @@
-//var assert = require('assert');
-
 describe('the mostProfitableDepartment function' , function(){
     it('should return most profitable department.' , function(){
         assert.equal('outdoor', mostProfitableDepartment([{"department":"electronics","sales":4500,"day":"Monday"},{"department":"outdoor","sales":1500,"day":"Monday"},{"department":"carpentry","sales":5500,"day":"Monday"},{"department":"steelwork","sales":7500,
