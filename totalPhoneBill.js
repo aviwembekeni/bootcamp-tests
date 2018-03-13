@@ -2,7 +2,7 @@ function totalPhoneBill(callsAndSmses){
    var callsAndSmsesList = callsAndSmses.split(',');
    var total = 0;
 
-  for(i=0; i < callsAndSmsesList.length; i++){
+  for(var i=0; i < callsAndSmsesList.length; i++){
      if(callsAndSmsesList[i].trimLeft() === 'call'){
        total += 2.75;
      }else
