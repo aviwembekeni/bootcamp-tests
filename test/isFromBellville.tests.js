@@ -1,3 +1,4 @@
+import require from 'require';
 var assert = require('assert');
 
 describe('the isFromBellville function' , function(){

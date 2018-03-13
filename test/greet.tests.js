@@ -1,4 +1,5 @@
 //import greet from "../greet.js";
+import require from 'require';
 var greet = require('../greet.js');
 var assert = require('assert');
 
