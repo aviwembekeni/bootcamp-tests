@@ -1,3 +1,11 @@
+var departmentList = [
+  {'department' : 'hardware', sales : 0},
+  {'department' : 'outdoor', sales : 0},
+  {'department' : 'carpentry', sales : 0},
+  {'department' : 'electronics', sales : 0}
+
+]
+
 function mostProfitableDepartment(data){
   departmentList[0].sales = 0;
   departmentList[1].sales = 0;
