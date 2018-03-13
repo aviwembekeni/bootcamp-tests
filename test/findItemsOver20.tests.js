@@ -1,5 +1,4 @@
-import require from 'require';
-var assert = require('assert');
+///var assert = require('assert');
 
 describe('the findItemsOver20 function' , function(){
     it('should return all the products that have a quantity higher than 20.' , function(){

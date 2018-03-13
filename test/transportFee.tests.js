@@ -1,6 +1,4 @@
-import require from 'require';
-var assert = require('assert');
-
+//var assert = require('assert');
 describe('the transportFee function' , function(){
     it('should returns the right price based on the shift you are working.' , function(){
         assert.equal('R20', transportFee('morning'));

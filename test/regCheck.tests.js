@@ -1,5 +1,4 @@
-import require from 'require';
-var assert = require('assert');
+//var assert = require('assert');
 
 describe('the regCheck function' , function(){
     it('check if a registration number is for GP, L, EC, MP registration plates.' , function(){

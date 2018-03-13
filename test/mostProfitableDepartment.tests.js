@@ -1,5 +1,4 @@
-import require from 'require';
-var assert = require('assert');
+//var assert = require('assert');
 
 describe('the mostProfitableDepartment function' , function(){
     it('should return most profitable department.' , function(){

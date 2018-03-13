@@ -1,5 +1,4 @@
-import require from 'require';
-var assert = require('assert');
+//var assert = require('assert');
 
 describe('the totalPhoneBill function' , function(){
     it('should calculate the total bill for the data provided.' , function(){
